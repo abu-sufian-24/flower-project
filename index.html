@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+          },
+          fontFamily: {
+            f: ["Lato", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="font-f">
+  <!-- header area start -->
+  <section class="bg-[rgba(229,84,115,0.10)] p-4">
+    <div class="container mx-auto px-4 py-8 2xl:max-w-[1320px]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Left side: Text content -->
+        <div>
+          <h1
+            class="text-[40px] leading-[50px] sm:text-[50px] sm:leading-[50px] md:text-[80px] md:leading-[90px] font-bold text-[#272727] mb-8">
+            Let's make beautiful flowers a part of your life.
+          </h1>
+          <p class="text-[18px] font-normal leading-[30px] text-slate-600 mb-8">
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters.
+          </p>
+          <a href="#" class="bg-[#E55473] text-white px-10 py-5 text-xl font-semibold rounded-md">Shop Now</a>
+        </div>
+
+        <!-- Right side: Image -->
+        <div>
+          <img src="assets/images/pic-1.png" alt="Beautiful flowers"
+            class="rounded-lg w-full h-[500px] md:h-[800px] align-middle" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- header area end -->
+  <!-- flower area start -->
+  <section class="mt-16 md:mt-24 lg:mt-32">
+    <div class="container mx-auto px-4 py-8 lg:py-12 2xl:max-w-[1320px]">
+      <div class="text-center">
+        <h2
+          class="text-[28px] md:text-[32px] lg:text-[40px] font-bold leading-[35px] md:leading-[40px] lg:leading-[50px] text-[#272727]">
+          Our Featured Flowers
+        </h2>
+        <p
+          class="mt-4 md:mt-5 text-[16px] md:text-[18px] leading-[28px] md:leading-[30px] font-normal max-w-[500px] md:max-w-[594px] m-auto text-[rgba(39,39,39,0.6)]">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+      </div>
+
+      <!-- Responsive Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8">
+        <div>
+          <div
+            class="p-[100px_50px_0px_50px] md:p-[140px_78px_0px_76px] bg-[rgba(229,84,115,0.1)] rounded-tl-[50%] rounded-tr-[50%]">
+            <img src="assets/images/pngwing1.png" alt="Image 1" class="rounded" />
+          </div>
+          <div class="text-center mt-6">
+            <a class="text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[35px] text-[#272727] inline-block border-b-2 border-[#272727]"
+              href="#">
+              Pink Flower Tree
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div
+            class="p-[90px_40px_30px_40px] md:p-[130px_47px_51px_47px] bg-[rgba(5,151,160,0.15)] rounded-tl-[50%] rounded-tr-[50%]">
+            <img src="assets/images/pngwing2.png" alt="Image 2" class="rounded" />
+          </div>
+          <div class="text-center mt-6">
+            <a class="text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[35px] text-[#272727] inline-block border-b-2 border-[#272727]"
+              href="#">
+              Blue Flower Tree
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div
+            class="p-[80px_40px_0px_40px] md:p-[114px_78px_0px_78px] bg-[rgba(71,125,17,0.15)] rounded-tl-[50%] rounded-tr-[50%]">
+            <img src="assets/images/pngwing3.png" alt="Image 3" class="rounded" />
+          </div>
+          <div class="text-center mt-6">
+            <a class="text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[35px] text-[#272727] inline-block border-b-2 border-[#272727]"
+              href="#">
+              Green Flower Tree
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- flower area end -->
+  <!-- middlr area start -->
+  <section class="p-[56px_0] bg-[rgba(39,39,39,0.05)] mt-12 md:mt-24 lg:mt-32">
+    <div class="container mx-auto px-4 py-8 2xl:max-w-[1320px]">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mt-8">
+        <div class="text-center">
+          <div class="flex justify-center mb-5">
+            <img src="assets/images/Group1.png" class="text-center" alt="img" />
+          </div>
+          <span>Same Day Delivery. Click & Collect.</span>
+        </div>
+        <div class="text-center">
+          <div class="flex justify-center mb-5">
+            <img src="assets/images/Group2.png" alt="img" />
+          </div>
+          <span>Fresh Flowers. Local Growers.</span>
+        </div>
+        <div class="text-center">
+          <div class="flex justify-center mb-5">
+            <img src="assets/images/Group3.png" alt="img" />
+          </div>
+          <span>24/7 Free Support.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- middlr area end-->
+  <!-- discount area start -->
+  <section class="bg-[rgba(229,84,115,0.05)] p-4 mt-16 md:mt-24 lg:mt-32">
+    <div class="container mx-auto px-4 py-8 2xl:max-w-[1320px]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Left side: Text content -->
+        <div class="text-center">
+          <h2 class="text-[28px] md:text-[32px] lg:text-[40px] font-bold text-[#272727] mb-8 leading-[50px]">Hot Deal !
+            Sale Up To 25% Off</h2>
+          <p class="text-[18px] font-normal leading-[30px] text-slate-600 mb-8">
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout.
+          </p>
+          <a href="#" class="bg-[#E55473] text-white px-6 py-3 text-xl font-semibold rounded-md">Sign Up</a>
+        </div>
+
+        <!-- Right side: Image -->
+        <div class="flex justify-center">
+          <img src="assets/images/pngwing8.png" alt="Beautiful flowers" class="rounded-lg" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- discount area end -->
+  <!-- Instagram area star -->
+  <section class="mt-12 md:mt-24 lg:mt-32">
+    <div class="container mx-auto px-4 py-8 2xl:max-w-[1320px]">
+      <div class="text-center mb-10">
+        <h2 class="text-[40px] font-bold leading-[50px] text-[#272727]">Instagram</h2>
+        <p class="mt-5 text-[18px] font-normal leading-[30px] max-w-[594px] m-auto text-[rgba(39,39,39,0.6)]">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+        <div>
+          <img src="assets/images/Rectangle1.png" alt="Image 1" class="rounded" />
+        </div>
+        <div>
+          <img src="assets/images/Rectangle2.png" alt="Image 1" class="rounded" />
+        </div>
+        <div>
+          <img src="assets/images/Rectangle3.png" alt="Image 1" class="rounded" />
+        </div>
+        <div>
+          <img src="assets/images/Rectangle4.png" alt="Image 1" class="rounded" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Instagram area end -->
+  <!-- addrese area start -->
+  <section class="mt-12 md:mt-24 lg:mt-32">
+    <div
+      class="container mx-auto px-4 py-8 2xl:max-w-[1320px] bg-[url(assets/images/bg2.jpg)] w-full bg-cover bg-center">
+      <div class="text-center p-[80px_0_80px_0]">
+        <h2 class="text-[28px] md:text-[32px] lg:text-[40px] font-bold leading-[50px] text-[#272727]">Get The Latest
+          Deals</h2>
+        <p class="mt-5 text-[18px] font-normal leading-[30px] text-[rgba(39,39,39,0.6)]">$30 coupon for first shopping
+        </p>
+
+        <form class="mt-12">
+          <input
+            class="w-[340px] sm:w-[500px] md:w-[700px] h-16 pl-6 text-[18px] font-normal leading-[30px] text-[rgba(39,39,39,0.6)] rounded-md focus:outline-none"
+            type="email" placeholder="Enter your email here...." />
+          <a href="#"
+            class="bg-[#E55473] text-white mt-4 sm:mt-5 md:mt-6 inline-block px-8 py-5 ml-3 text-xl font-semibold rounded-md">Shop
+            Now</a>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- addrese area end -->
+  <!-- Button -->
+  <div class="text-center mt-6">
+    <button id="showSection" class="bg-[#E55473] text-white px-8 py-5 ml-3 text-xl font-semibold rounded-md">
+      Click to Show Flowers
+    </button>
+  </div>
+
+  <!-- Hidden Section -->
+  <div id="flowerSection"
+    class="hidden fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center z-50">
+    <div class="bg-white p-4 rounded-lg shadow-lg text-center fade-in">
+      <h2 class="text-2xl font-bold mb-4">Beautiful Flowers</h2>
+      <div class="grid grid-cols-6 gap-4">
+        <img src="assets/images/Rectangle1.png" alt="Flower 1" class="w-32 h-32 object-cover" />
+        <img src="assets/images/Rectangle2.png" alt="Flower 2" class="w-32 h-32 object-cover" />
+        <img src="assets/images/Rectangle3.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/Rectangle4.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/2.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/1.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/3.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/4.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/5.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/6.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/7.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+        <img src="assets/images/8.png" alt="Flower 3" class="w-32 h-32 object-cover" />
+      </div>
+      <button id="closeSection"
+        class="mt-6 px-6 py-2 bg-red-500 text-white rounded-lg shadow-lg hover:bg-red-600 transition">
+        Close
+      </button>
+    </div>
+  </div>
+
+  <!-- footer area start -->
+  <footer class="bg-[#111010] mt-12 md:mt-24 lg:mt-32">
+    <div class="container mx-auto px-4 py-8 2xl:max-w-[1320px]">
+      <div class="text-center">
+        <h2 class="">
+          <strong class="text-[#E55473] text-[48px] font-bold leading-[60px]">Flower</strong>
+          <strong class="text-white text-[48px] font-bold leading-[60px]">Shop</strong>
+        </h2>
+        <p class="mt-5 text-[18px] font-normal leading-[30px] max-w-[625px] m-auto text-[rgba(255,255,255,0.9)]">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+        <span class="inline-block mt-6 text-[16px] font-normal leading-[26px] text-[rgba(255,255,255,0.4)]">@2020-2023,
+          FlowerShop.com. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area end -->
+
+  <script src="assets/js/jquary.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
